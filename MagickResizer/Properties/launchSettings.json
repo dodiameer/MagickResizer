@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "MagickResizer": {
+      "commandName": "Project",
+      "commandLineArgs": "--input SampleFiles --output OutputFiles -w 360 -h 180",
+      "workingDirectory": "C:\\Users\\theor\\Desktop\\Test"
+    },
+    "MagickResizer (Fail)": {
+      "commandName": "Project",
+      "commandLineArgs": "--input FailingDir --output FailingOutput"
+    }
+  }
+}
